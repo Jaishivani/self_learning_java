@@ -1,0 +1,11 @@
+    static int s = 9; // class(no usage)
+    public static void main(String[] args){
+        int y = 8;// local
+        System.out.println(y);
+        dosomething(s);  
+    }
+    static void dosomething(int p){ //1 usage
+        s = 4; //local
+        System.out.print(s);
+    }
+}
