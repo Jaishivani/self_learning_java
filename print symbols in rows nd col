@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class pro4 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the no of rows: ");
+        int row = sc.nextInt();
+
+        System.out.print("Enter the no of columns: ");
+        int col = sc.nextInt();
+
+        System.out.print("Enter the Symbol to use: ");
+        char sym = sc.next().charAt(0);
+
+        
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                System.out.print(sym);
+            }
+        System.out.println();
+        }
+    sc.close();
+    }
+}
